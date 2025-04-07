@@ -103,7 +103,7 @@ const CurrencyConverter = () => {
         />
       </div>
       <button onClick={handleConvert}>Convert</button>
-      <h2>Result: {result}</h2>
+      <h2>Result: {result.toFixed(2)}</h2>
     </div>
   );
 };
